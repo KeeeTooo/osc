@@ -1,0 +1,131 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,700;0,900;1,500&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Red Hat Display';
+}
+
+body{
+    background-color: hsl(225, 100%, 94%);
+    background-image:url(../images/pattern-background-desktop.svg);   
+    background-repeat: repeat-x;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+     background-color: white;
+     border-radius: 10px;
+     overflow: hidden;
+     width: 400px;
+     height: 630px;
+   
+     
+     
+}
+
+img{background-image:url(../images/illustration-hero.svg);
+    height: 200px;
+    width: 400px;
+}
+
+h1{ 
+    font-size:25px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-weight: 900;
+}
+
+
+p{  margin-left: 32px;
+    width: 310px;
+    color:hsl(224, 23%, 55%);
+    font-size: 16px;
+    margin-top: 16px;
+    line-height: 1.7em;
+    text-align: center;
+    font-weight: 500;
+    
+
+}
+
+.m{width: 310px;
+   height: 100px;
+   border-radius: 10px;
+   background-color: hsl(225, 100%, 98%);
+   margin-left: 32px;
+   margin-top:15px;
+
+}
+
+.circle{
+    position: absolute;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: hsl(225, 100%, 94%);
+    margin-top: 25px;
+    margin-left: 20px;
+    background-image: url(../images/icon-music.svg);  
+    background-position: center;
+    
+}
+
+.m>p{position: absolute;
+    color: black;
+    margin-top:23px;
+    margin-left: -18px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.price{
+    position: absolute;
+    margin-top:33px;
+    font-size: 17px;
+    margin-left: 88px;
+    color:hsl(224, 23%, 55%) ;
+}
+
+a{
+    position: absolute;
+    margin-left:230px;
+    margin-top: 37px;
+    font-weight: 700;
+}
+
+a:hover{text-decoration: none;}
+
+.pay>a {width: 310px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    margin-left: 45px;
+    margin-top:25px;
+    box-shadow: 0 18px 28px -10px hsl(224, 23%, 55%);
+    color:white;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 700;
+}  
+.pay>a:hover {background-color: hsl(224, 23%, 55%)} 
+
+.cancel>a{position: absolute;
+        margin-top: 85px;
+        margin-left: 150px;
+        color:hsl(224, 23%, 55%) ;
+        text-decoration: none;
+        font-weight: 700;}
+
+.cancel>a:hover{color: black;}
